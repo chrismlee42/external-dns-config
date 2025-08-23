@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+metadata:
+  name: external-dns-config
+
+commonLabels:
+  app: external-dns
+  managedBy: argocd
+  managementCodeGroup: chrismlee42
+  managementCodeProject: external-dns-config
+
+namespace: kube-system
+
+resources: []
