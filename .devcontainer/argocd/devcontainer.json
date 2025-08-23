@@ -1,7 +1,7 @@
 {
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:bookworm",
-	"name": "external-dns-config",
+	"name": "external-dns-config-argocd",
     "customizations": {
         "vscode": {
             "extensions": [
